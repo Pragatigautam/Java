@@ -12,7 +12,7 @@ class B{
 	
 }
 
-// only one class can be inheriteted in the child class
+// only one class can be inherited in the child class
 class C extends A{
 	
 	
