@@ -23,44 +23,24 @@ public class Interface1 {
 		SonP Prajwol = new SonP();
 		Prajwol.Message();
 		Prajwol.Message2();
-		
-
 	}
-
 }
-
 class FatherP implements GrandFatherS , GrandMotherM{
 
 	
 	public void Message() {
-		System.out.println("I am father");
-		
-		
+		System.out.println("I am father");	
 	}
-
-	
 	public void Message2() {
-		System.out.println("I am dad");
-		
-		
+		System.out.println("I am dad");	
 	}
-
-
-	
 	public void GMaa() {
 		System.out.println("This is first method from GrandMother");
 		
 	}
-
-
-	
 	public void GMaaMessage() {
-		System.out.println("This is second method for GrandMother");
-		
-		
-	}
-	
-	
+		System.out.println("This is second method for GrandMother");	
+	}	
 }
 class SonP implements GrandFatherS{
 

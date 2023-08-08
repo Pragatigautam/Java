@@ -43,7 +43,7 @@ class Car{
 			}
 			
 			else if(Car.this.CarType.equals("SUV")) {
-				System.out.println("Bit engine");
+				System.out.println("Big engine");
 			}
 			
 		}

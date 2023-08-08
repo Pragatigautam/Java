@@ -18,6 +18,7 @@ public class RevisionMultiArray {
 		}
 		
 		//same another one
+		//for loop
 		int [][] number = {
 				{12,34,54},
 				{98,76,65},

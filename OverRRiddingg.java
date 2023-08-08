@@ -6,6 +6,7 @@ public class OverRRiddingg {
 		//creating object for SBI class
 		
 		SBI Pune = new SBI("India", "Pune");
+		System.out.println(Pune.City);
 		Pune.Loan();
 		Pune.Save();
 		Pune.DisplayMessage();
