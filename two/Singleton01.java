@@ -24,6 +24,7 @@ public class Singleton01 {
 class Database{
 	//properties with object
 	//Static is used to call something on the class level
+	//creating instance of Database class with type Database (not string or int)
 	private static Database DB;
 	
 	//default construction (not needed here but still i created to understand)

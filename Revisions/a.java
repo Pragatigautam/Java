@@ -1,4 +1,4 @@
-package one;
+package Revisions;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -6,7 +6,7 @@ import java.util.Map;
 public class a {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 
 		Map<String, String> course = new HashMap<String, String>();
 		course.put("course", "javascript");
@@ -46,6 +46,7 @@ public class a {
 		System.out.println(vehicle);
 		
 		System.out.println(vehicle.get("color"));
+		
 		for(String key :vehicle.keySet()) {
 			System.out.println(key);
 			System.out.println(vehicle.get(key));

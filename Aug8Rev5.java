@@ -33,7 +33,7 @@ public class Aug8Rev5 {
 		//this for loop not working properly
 		for(String K1: Books.keySet()) {
 			System.out.println(K1);
-			System.out.println(Phones.get(K1));
+			System.out.println(Books.get(K1));
 		}
 		
 		

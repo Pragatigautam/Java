@@ -30,6 +30,11 @@ public class Aug8Rev4 {
 		boolean e = Employees.containsKey("Pragati Gautam");
 		System.out.println(e);
 		
+		
+		
+		
+		
+		
 		//total number of key value
 		System.out.println(Employees.size());
 		
