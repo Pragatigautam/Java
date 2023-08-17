@@ -20,6 +20,8 @@ public class EnumTwo {
 
 class Food{
 	BurgerType SpiceAmount;
+	
+	//constructor
 	public Food(BurgerType SPA) {
 		this.SpiceAmount = SPA;
 	}

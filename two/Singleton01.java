@@ -27,7 +27,7 @@ class Database{
 	//creating instance of Database class with type Database (not string or int)
 	private static Database DB;
 	
-	//default construction (not needed here but still i created to understand)
+	//private construction (so noone can create object)
 	private Database() {
 		
 	}
