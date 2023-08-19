@@ -12,10 +12,12 @@ public class UserDefinedDTP2 {
 		
 		String a= parrot.sing();
 		
-			//System.out.println(a);
+			System.out.println(a);
 		
 				
 		
+			String b = sparrow.sing();
+			System.out.println(b);
 		
 
 	

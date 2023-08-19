@@ -25,6 +25,8 @@ abstract class VehiclesPO{
 }
 
 
+//it is compulsory to override abstract class method by child class
+
 class ToyotaV extends VehiclesPO{
 
 	public ToyotaV(int NW) {
