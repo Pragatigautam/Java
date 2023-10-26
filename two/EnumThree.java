@@ -1,4 +1,6 @@
 package two;
+
+//Enums are used to represent a fixed set of constant values.
 enum Size{
 	Small, Medium, Large, ExtraLarge;
 	

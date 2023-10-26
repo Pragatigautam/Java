@@ -1,7 +1,7 @@
 package two;
 
 
-enum BurgerType{
+enum Type{
 	Normal, Spicy, MediumSpicy, ExtraSpicy
 }
 
@@ -9,7 +9,7 @@ enum BurgerType{
 public class EnumTwo {
 
 	public static void main(String[] args) {
-		Food Bg = new Food(BurgerType.ExtraSpicy);
+		Food Bg = new Food(Type.ExtraSpicy);
 		Bg.ConfirmMessage();
 		
 
@@ -19,10 +19,10 @@ public class EnumTwo {
 
 
 class Food{
-	BurgerType SpiceAmount;
+	Type SpiceAmount;
 	
 	//constructor
-	public Food(BurgerType SPA) {
+	public Food(Type SPA) {
 		this.SpiceAmount = SPA;
 	}
 	

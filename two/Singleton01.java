@@ -3,6 +3,8 @@ package two;
 public class Singleton01 {
 
 	public static void main(String[] args) {
+		
+		//obj is reference variable like(String name;)
 		Database obj;
 		obj=Database.getinstance();
 		obj.getconnect();
@@ -34,7 +36,7 @@ class Database{
 	//method with return type
 	public static Database getinstance() {
 		if(DB==null) {
-			DB=new Database();
+			DB=new Database(); //in this line object (DB) for Database class is created. new Database
 		}
 		return DB;
 			
